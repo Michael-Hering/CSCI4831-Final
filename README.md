@@ -19,11 +19,30 @@ The statcast database has statistics for the launch angle, launch speed, and lan
   
 We can also display how launch angle and speed combine to affect the wOBA score by plotting the normalized wOBA values as a color gradient, where a darker green equates to a higher wOBA value.  
   
-<img src="images/bw.png" alt="drawing" width="300"/>
+<img src="images/bw.png" alt="drawing" width="300"/>  
   
-In order to present this statistic, I show the correlation for all hits concerning hit angle and outcome, hit speed and outcome, as well as hit location and outcome. I also show the correlation for all hits concerning hit angle and wOBA as well as hit speed and wOBA. Finally, I analyze the HE score for different batters hit’s to determine which batters produce the best hits.  
+From the graphs above, we can notice that there are certain "sweet spots" of both angle and speed of a hit that will produce the highest wOBA for that hit.
+  
+## Launch angle & speed, landing position VS hit outcome  
+  
+We can also look at how the outcome of a hit relates to both the launch angle and launch speed of the hit, as well as the landing position of the ball.  
+  
+<img src="images/outcome.png" alt="drawing" width="300"/>  
+  
+We notice first that the distribution of hit outcome vs launch angle & speed is similar to that of the distribution of wOBA value vs launch angle & speed. We again see that sweet spot of an angle between 0-25 degrees and a speed between 60-115 MPH. Looking at the graph of hit outcome vs landing position gives us a good idea of where the best hits are placed, and while not directly related to the HE statistic this graph is still an important visualization.  
 
-Images here
+## Fit a model based on launch angle, launch speed
+
+<img src="images/model.png" alt="drawing" width="300"/>  
+
+## Top 10 HE scores for batters in 2017   
+Using these models, let's predict and visualize the HE of hits for the top 10 batters hits using HE = (Af(angle) + Sf(speed)) / 2 
+
+<img src="images/top10.png" alt="drawing" width="300"/>  
+
+<img src="images/all1.png" alt="drawing" width="300"/>  
+
+<img src="images/all2.png" alt="drawing" width="300"/>  
 
 
 References: https://fivethirtyeight.com/features/the-new-science-of-hitting/
