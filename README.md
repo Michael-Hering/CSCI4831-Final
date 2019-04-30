@@ -16,6 +16,8 @@ The statcast database has statistics for the launch angle, launch speed, and lan
   
 ![screenshot](images/aw.png)
 ![screenshot](images/sw.png)  
+
+<img src="images/aw.png" alt="drawing" width="20"/>
   
 We can also display how launch angle and speed combine to affect the wOBA score by plotting the normalized wOBA values as a color gradient, where a darker green equates to a higher wOBA value.  
   
