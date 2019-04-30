@@ -14,11 +14,12 @@ For this project, I will analyze what types of hits produce the most offensive g
   
 The statcast database has statistics for the launch angle, launch speed, and landing position of every hit recorded over the 2017 season. This data, combined with batter info and wOBA scores, will be used in my analysis. In order to analyze this data, I wanted to first look independently at how launch angle and launch speed affect the wOBA value of some particular hit. We first have to clean up the data a little bit, by simply taking the mean of groups of data, so that our plot accurately reflects the relationship and has no misleading data points. We then can plot our data to obtain the graphs below:  
 
-<img src="images/bw.png" alt="drawing" width="200"/>
+<img src="images/aw.png" alt="drawing" width="300"/>
+<img src="images/sw.png" alt="drawing" width="300"/>
   
 We can also display how launch angle and speed combine to affect the wOBA score by plotting the normalized wOBA values as a color gradient, where a darker green equates to a higher wOBA value.  
   
-![screenshot](images/bw.png)  
+<img src="images/bw.png" alt="drawing" width="300"/>
   
 In order to present this statistic, I show the correlation for all hits concerning hit angle and outcome, hit speed and outcome, as well as hit location and outcome. I also show the correlation for all hits concerning hit angle and wOBA as well as hit speed and wOBA. Finally, I analyze the HE score for different batters hit’s to determine which batters produce the best hits.  
 
