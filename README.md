@@ -27,22 +27,22 @@ From the graphs above, we can notice that there are certain "sweet spots" of bot
   
 We can also look at how the outcome of a hit relates to both the launch angle and launch speed of the hit, as well as the landing position of the ball.  
   
-<img src="images/outcome.png" alt="drawing" width="300"/>  
+<img src="images/outcome.png" alt="drawing" width="900"/>  
   
 We notice first that the distribution of hit outcome vs launch angle & speed is similar to that of the distribution of wOBA value vs launch angle & speed. We again see that sweet spot of an angle between 0-25 degrees and a speed between 60-115 MPH. Looking at the graph of hit outcome vs landing position gives us a good idea of where the best hits are placed, and while not directly related to the HE statistic this graph is still an important visualization.  
 
 ## Fit a model based on launch angle, launch speed
 
-<img src="images/model.png" alt="drawing" width="300"/>  
+<img src="images/model.png" alt="drawing" width="900"/>  
 
 ## Top 10 HE scores for batters in 2017   
 Using these models, let's predict and visualize the HE of hits for the top 10 batters hits using HE = (Af(angle) + Sf(speed)) / 2 
 
-<img src="images/top10.png" alt="drawing" width="300"/>  
+<img src="images/top10.png" alt="drawing" width="900"/>  
 
-<img src="images/all1.png" alt="drawing" width="300"/>  
+<img src="images/all1.png" alt="drawing" width="900"/>  
 
-<img src="images/all2.png" alt="drawing" width="300"/>  
+<img src="images/all2.png" alt="drawing" width="900"/>  
 
 
 References: https://fivethirtyeight.com/features/the-new-science-of-hitting/
